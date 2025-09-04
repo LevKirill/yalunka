@@ -1,0 +1,1700 @@
+# Translation of Plugins - XT Variation Swatches for WooCommerce - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - XT Variation Swatches for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-06 10:18:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - XT Variation Swatches for WooCommerce - Stable (latest release)\n"
+
+#: xt-framework/includes/class-woocommerce.php:68
+msgid "WooCommerce is not installed"
+msgstr "WooCommerce не встаовлений"
+
+#: xt-framework/includes/class-review-notice.php:218
+msgid "Help me first"
+msgstr "Спочатку допоможи мені"
+
+#: xt-framework/includes/class-review-notice.php:217
+msgid "I already did"
+msgstr "Це вже зроблено"
+
+#: xt-framework/includes/class-review-notice.php:216
+msgid "Nope, maybe later"
+msgstr "Ніт, можливо пізніше"
+
+#: xt-framework/includes/class-review-notice.php:215
+msgid "Ok, you deserve it"
+msgstr "Добре, ти заслужив це"
+
+#: xt-framework/includes/class-review-notice.php:208
+msgid "Hey %s, I noticed you've been using %s for the past %s – that’s awesome!"
+msgstr "Привіт, %s, я помітив, що Ви користуєтеся %s протягом останнього %s – це чудово!"
+
+#: xt-framework/includes/class-review-notice.php:210
+msgid "Could you please do me a %1$sBIG favor%2$s and give it a %1$s5-star rating%2$s on WordPress? Just to %1$s help us%2$s spread the word and boost our motivation. Many thanks!"
+msgstr "Не могли б Ви зробити мені %1$sВЕЛИКУ послугу%2$s і поставити йому %1$s5-зірковий рейтинг%2$s на сайті WordPress? Просто щоб %1$sдопомогти нам%2$s поширити інформацію та підвищити нашу мотивацію. Красно дякую!"
+
+#: xt-framework/includes/admin-tabs/class-admin-tabs.php:324
+msgid "Refresh"
+msgstr "Оновити"
+
+#: xt-framework/includes/class-system-status.php:896
+msgid "We cannot determine which %1$sTLS%2$s version is installed."
+msgstr "Ми не можемо визначити, яку версію %1$sTLS%2$s встановлено."
+
+#: xt-framework/includes/settings/fields/ajax_terms.php:39
+msgid "Search Categories"
+msgstr "Пошук категорій"
+
+#: xt-woo-variation-swatches.php:40
+msgid "Variation Swatches"
+msgstr "Variation Swatches"
+
+#: xt-woo-variation-swatches.php:39
+msgid "Variation Swatches for WooCommerce"
+msgstr "Variation Swatches for WooCommerce"
+
+#. Plugin Name of the plugin
+#: xt-woo-variation-swatches.php
+msgid "XT Variation Swatches for WooCommerce"
+msgstr "XT Variation Swatches for WooCommerce"
+
+#: admin/class-admin.php:160
+msgid "Display Settings"
+msgstr "Налаштування відображення"
+
+#: xt-framework/includes/class-system-status.php:588
+msgid "Shared By"
+msgstr "Спільно з"
+
+#: xt-framework/includes/class-system-status.php:585
+msgid "Loaded From"
+msgstr "Завантажено із"
+
+#: xt-framework/includes/class-system-status.php:582
+msgid "Module Name"
+msgstr "Назва модуля"
+
+#: admin/customizer/fields/swatch-global.php:6
+#: admin/customizer/fields/swatch-global.php:13
+msgid "Disable Ajax Variation Threshold"
+msgstr "Поріг відключення Ajax варіації"
+
+#: xt-framework/includes/settings/class-settings.php:1074
+msgid "Failed saving settings!"
+msgstr "Помилка при збереженні налаштувань."
+
+#: xt-framework/includes/settings/class-settings.php:1062
+msgid "Settings saved successfully!"
+msgstr "Налаштування збережені успішно!"
+
+#: xt-framework/includes/settings/fields/multi_select_countries.php:28
+msgid "Choose countries&hellip;"
+msgstr "Виберіть країни&hellip;"
+
+#: xt-framework/includes/settings/fields/multi_select_countries.php:28
+#: xt-framework/includes/settings/fields/single_select_country.php:29
+msgid "Country"
+msgstr "Країна"
+
+#: xt-framework/includes/settings/fields/single_select_country.php:29
+msgid "Choose a country&hellip;"
+msgstr "Виберіть країну&hellip;"
+
+#: xt-framework/includes/settings/fields/single_select_page.php:35
+msgid "Select a page&hellip;"
+msgstr "Виберіть сторінку&hellip;"
+
+#: xt-framework/includes/settings/fields/admin_action.php:14
+msgid "Are you sure you want to proceed?"
+msgstr "Ви впевнені, що хочете продовжити?"
+
+#: xt-framework/includes/settings/class-settings.php:872
+msgid "Reset Values"
+msgstr "Скинути значення"
+
+#: xt-framework/includes/settings/class-settings.php:871
+msgid "Attention!!! This will reset all settings within this section to their default values! Are you sure you want to proceed?"
+msgstr "Увага!!! Це призведе до скидання всіх налаштувань в цьому розділі до їх початкових значень! Ви впевнені що хочете продовжити?"
+
+#: xt-framework/includes/settings/class-settings.php:863
+msgid "Reset this setting to it's default value!"
+msgstr "Скиньте це налаштування до початкового значення!"
+
+#: xt-framework/includes/settings/class-settings.php:789
+msgid "Reset All"
+msgstr "Скинути все"
+
+#: xt-framework/includes/settings/class-settings.php:788
+msgid "Attention!!! This will reset all settings of all sections to their default values! Are you sure you want to proceed?"
+msgstr "Увага!!! Це призведе до скидання всіх налаштувань всіх розділів до їх значень за замовчуванням! Ви впевнені що хочете продовжити?"
+
+#: xt-framework/includes/settings/class-settings.php:785
+msgid "Save Changes"
+msgstr "Зберегти Зміни"
+
+#: xt-framework/includes/modules/add-to-cart/module-add-to-cart.php:248
+msgid "Loading Spinners"
+msgstr "Спінери завантаження"
+
+#: xt-framework/includes/modules/add-to-cart/module-add-to-cart.php:242
+msgid "Single Product Page"
+msgstr "Сторінка окремого товару"
+
+#: xt-framework/includes/modules/add-to-cart/module-add-to-cart.php:236
+msgid "Shop / Archive Pages"
+msgstr "Сторінки магазина/архіву"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:220
+msgid "Custom Page"
+msgstr "Користувацька сторінка"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:219
+msgid "Checkout"
+msgstr "Оформити"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:218
+msgid "Cart"
+msgstr "Кошик"
+
+#: xt-framework/includes/modules/add-to-cart/module-add-to-cart.php:254
+msgid "Redirection Settings"
+msgstr "Налаштування переспрямування"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:237
+msgid "Select a redirect page."
+msgstr "Виберіть сторінку переспрямування."
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:235
+msgid "Redirect To Custom Page"
+msgstr "Переспрямувати на користувацьку сторінку"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:215
+msgid "Redirect To"
+msgstr "Переспрямувати на"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:203
+msgid "Enable Add To Cart Redirection"
+msgstr "Увімкнути переспрямування додавання в кошик."
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:173
+msgid "Spinner Size"
+msgstr "Розмір спінера"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:149
+msgid "Add To Cart Button Added Checkmark"
+msgstr "Галочка &laquo;Додано&raquo; Кнопки &laquo;Додати в кошик&raquo;"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:113
+msgid "If your theme does not show a loading spinner on the add to cart button when adding a product, this option will try and add one"
+msgstr "Якщо під час додавання продукту у вашій темі не відображається значок завантаження на кнопці «Додати в кошик», цей параметр спробує додати його"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:112
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:125
+msgid "Add To Cart Button Loading Spinner"
+msgstr "Спінер завантаження кнопки &laquo;Додати в кошик&raquo;"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:92
+msgid "Scroll up to \"Added to cart\" notice after successfully adding to cart."
+msgstr "Прокрутити вгору до сповіщення «Додано в кошик» після успішного додавання в кошик."
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:91
+msgid "Scroll up to success notice"
+msgstr "Прокрутити вгору до повідомлення про успіх"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:71
+msgid "Enable this only if you notice that after adding a product to the cart, the totals are not correct due to conflicts with your theme or other plugins. "
+msgstr "Увімкніть це лише якщо Ви помітили, що після додавання продукту в кошик загальні суми неправильні через конфлікти з Вашою темою чи іншими плагінами. "
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:70
+msgid "Force Refresh Fragments After Adding"
+msgstr "Примусово оновити фрагменти після додавання"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:57
+msgid "Enable Ajax Add To Cart on Single Product Pages"
+msgstr "Увімкнути Ajax Додати в кошик на сторінках окремих продуктів"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:34
+msgid "Hide \"View Cart\" Link after add to cart"
+msgstr "Приховати посилання «Переглянути кошик» після додавання в кошик"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:21
+msgid "Enable Ajax Add To Cart on Shop / Archive Pages"
+msgstr "Увімкнути Ajax Додати в кошик на сторінках магазину/архіву"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:20
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:56
+msgid "Enable Ajax Add To Cart"
+msgstr "Увімкнути Ajax Додати в кошик"
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:7
+msgid "Some themes do not show the add to cart button on the catalog. This will force it to show. Disable it if you see a duplicated button."
+msgstr "У деяких темах у каталозі не відображається кнопка «Додати до кошика». Це покаже її примусово. Вимкніть це, якщо ви бачите дубльовану кнопку."
+
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:6
+msgid "Force showing add to cart button on shop page"
+msgstr "Примусово показувати кнопку «Додати в кошик» на сторінці магазину"
+
+#: xt-framework/includes/functions-formatting.php:18
+#: xt-framework/includes/settings/fields/relative_date_selector.php:16
+msgid "Year(s)"
+msgstr "Рік (роки)"
+
+#: xt-framework/includes/functions-formatting.php:17
+#: xt-framework/includes/settings/fields/relative_date_selector.php:15
+msgid "Month(s)"
+msgstr "Місяць(i)"
+
+#: xt-framework/includes/functions-formatting.php:16
+#: xt-framework/includes/settings/fields/relative_date_selector.php:14
+msgid "Week(s)"
+msgstr "Тиждень (тижні)"
+
+#: xt-framework/includes/functions-formatting.php:15
+#: xt-framework/includes/settings/fields/relative_date_selector.php:13
+msgid "Day(s)"
+msgstr "День(дні)"
+
+#: xt-framework/includes/customizer/xirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr "Важливе повідомлення про оновлення:"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ультра жирний 900 курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:218
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr "Ультра жирний 900"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr "Екстра жирний 800 курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:215
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr "Екстра жирний 800"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr "Жирний 700 курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:213
+msgid "Bold 700"
+msgstr "Жирний 700"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr "Напівжирний 600 курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:210
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr "Напівжирний 600"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr "Середній 500 курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:208
+msgid "Medium 500"
+msgstr "Середній 500"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr "Звичайний 400 курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:205
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:206
+msgid "Normal 400"
+msgstr "Звичайний 400"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr "Книжковий 300 курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:203
+msgid "Book 300"
+msgstr "Книжковий 300"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr "Тонкий (200) курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:201
+msgid "Light 200"
+msgstr "Тонкий 200"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr "Ультратонкий 100 курсив"
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:198
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr "Ультратонкий 100"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:196
+msgid "Collapse data"
+msgstr "Згорнути дані"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:195
+msgid "Show me the data"
+msgstr "Показати дані"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:194
+msgid "No thanks"
+msgstr "Ні, дякую"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:193
+msgid "I agree"
+msgstr "Я згоден"
+
+#. translators: %1$s: URL to the server plugin code. %2$s: URL to the stats
+#. page.
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:182
+msgid "We believe in complete transparency. You can see the code used on our server <a href=\"%1$s\" rel=\"nofollow\">here</a>, and the results of the statistics we're gathering on <a href=\"%2$s\" rel=\"nofollow\">this page</a>."
+msgstr "Ми віримо в повну прозорість. Ви можете переглянути код, який використовується на нашому сервері, <a href=\"%1$s\" rel=\"nofollow\">тут</a>, а результати статистики, яку ми збираємо, — на <a href=\"%2$s\" rel=\"nofollow\">цій сторінці</a>."
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:172
+msgid "Field Types Used"
+msgstr "Використані типи полів"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:168
+msgid "Theme URI"
+msgstr "URI теми"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:164
+msgid "Theme Author"
+msgstr "Автор теми"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:160
+msgid "Theme Name"
+msgstr "Назва теми"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:151
+msgid "Data that will be sent"
+msgstr "Дані, які буде надіслано"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:147
+msgid "Help us begin a dialogue with theme developers, collaborate and improve both the theme you are using and the Xirki framework by agreeing to send anonymous data. <strong>The data is completely anonymous and we will never collect any identifyable information about you or your website.</strong>"
+msgstr "Допоможіть нам почати діалог із розробниками тем, співпрацюйте та вдосконалюйте як тему, яку ви використовуєте, так і структуру Xirki, погодившись надсилати анонімні дані. <strong>Дані повністю анонімні, і ми ніколи не збиратимемо жодної ідентифікаційної інформації про Вас або Ваш сайт.</strong>"
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:146
+msgid "Help us improve Xirki."
+msgstr "Допоможіть нам покращити Xirki."
+
+#. translators: The title.
+#: xt-framework/includes/customizer/xirki/modules/custom-sections/sections/class-xirki-sections-nested-section.php:64
+msgid "Customizing &#9656; %s"
+msgstr "Персоналізація &#9656; %s"
+
+#: xt-framework/includes/customizer/xirki/modules/custom-sections/sections/class-xirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr "Персоналізація"
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is
+#. buttonset/image.
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-radio.php:37
+msgid "Error in field %1$s. The \"mode\" argument has been deprecated since Xirki v0.8. Use the \"radio-%2$s\" type instead."
+msgstr "Помилка в полі  %1$s. Аргумент \"mode\" застарів з часів Xirki v0.8. Натомість використовуйте \"radio-%2$s\"."
+
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-color.php:52
+msgid "Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" instead."
+msgstr "Не використовуйте «alpha» як аргумент в елементах керування кольором. Натомість використовуйте \"choices[alpha]\"."
+
+#: xt-framework/includes/settings/fields/checkbox.php:63
+msgid "Toggle"
+msgstr "Перемикач"
+
+#: xt-framework/includes/customizer/xirki/deprecated/functions.php:19
+msgid "%1$s or %2$s"
+msgstr "%1$s чи %2$s"
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki.php:237
+msgid "Xirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr "Поля Xirki не слід додавати в customize_register. Будь ласка, додайте їх безпосередньо або до елементу."
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-init.php:359
+msgid "Don't show this again"
+msgstr "Більше не показувати"
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-init.php:358
+msgid "Install Plugin"
+msgstr "Встановити плагін"
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-init.php:355
+msgid "Your theme uses a Font Awesome field for icons. To avoid issues with missing icons on your frontend we recommend you install the official Font Awesome plugin."
+msgstr "Ваша тема використовує шрифт Font Awesome для іконок. Щоб уникнути проблем з відсутніми іконками у Вашому інтерфейсі, ми рекомендуємо встановити офіційний плагін Font Awesome."
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-init.php:279
+msgid "We detected you're using Xirki_Init::get_variables(). Please use Xirki_Util::get_variables() instead."
+msgstr "Ми виявили, що ви використовуєте Xirki_Init::get_variables(). Будь ласка, використовуйте Xirki_Util::get_variables() натомість."
+
+#. translators: The field ID where the error occurs.
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:507
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:518
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr "\"output\" - невірний формат у полі %s. Аргумент \"output\" повинен бути об'явлений як масив масивів."
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:384
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr "\"partial_refresh\" некоректне значення у полі %s"
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:266
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:276
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr "Не задане налаштування для поля %1$s - Ознайомтесь з %2$s як правильно додавати поля."
+
+#. translators: %s represents the field ID where the error occurs.
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:257
+msgid "Typo found in field %s - setting instead of settings."
+msgstr "Виявлена друкована помилка (опечатка) в полі %s - установкА замість установкИ."
+
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:40
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:53
+msgid "Choose image"
+msgstr "Обрати зображення"
+
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:38
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:51
+msgid "No image selected"
+msgstr "Зображення не вибране"
+
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:35
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:48
+msgid "Change image"
+msgstr "Змінити зображення"
+
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:34
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:39
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:47
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:52
+msgid "Select image"
+msgstr "Вибрати зображення"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr "Відступ знизу"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:205
+msgid "Margin Top"
+msgstr "Відступ згори"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:195
+msgid "Line-Through"
+msgstr "Перекреслений"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:194
+msgid "Overline"
+msgstr "Надчерк"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:193
+msgid "Underline"
+msgstr "Підкреслений"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:189
+msgid "Text Decoration"
+msgstr "Оформлення тексту"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:180
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:196
+msgid "Initial"
+msgstr "Початковий"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:179
+msgid "Lowercase"
+msgstr "Нижній регістр"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:178
+msgid "Uppercase"
+msgstr "Верхній регістр"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:177
+msgid "Capitalize"
+msgstr "Перші Літери Великі (Capitalize)"
+
+#: xt-framework/includes/class-system-status.php:614
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:176
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:192
+msgid "None"
+msgstr "Нічого"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:173
+msgid "Text Transform"
+msgstr "Трансформація тексту"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:163
+msgid "Justify"
+msgstr "По ширині"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:139
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:181
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:197
+msgid "Inherit"
+msgstr "Успадковувати"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:134
+msgid "Text Align"
+msgstr "Вирівнювання тексту"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:93
+msgid "Variant"
+msgstr "Варіант"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:87
+msgid "Backup Font"
+msgstr "Резервний шрифт"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:83
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr "Оберіть сімейство шрифтів"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:82
+msgid "Font Family"
+msgstr "Сімейство шрифтів"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-switch.php:56
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-switch.php:40
+msgid "Off"
+msgstr "Вимкнути"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-switch.php:52
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-switch.php:39
+msgid "On"
+msgstr "Увімкнути"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-slider.php:67
+msgid "Reset"
+msgstr "Скинути"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:419
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:421
+msgid "Change File"
+msgstr "Змінити файл"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:419
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:423
+msgid "Add File"
+msgstr "Додати файл"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:387
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:389
+msgid "Change Image"
+msgstr "Змінити зображення"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:387
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:391
+msgid "Add Image"
+msgstr "Додати зображення"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:376
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr "Зображення не вибрано"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:227
+msgid "Limit: %s rows"
+msgstr "Обмеження: %s рядків"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr "Обрати сторінку"
+
+#. translators: %s represents the label of the row.
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:86
+msgid "Add new %s"
+msgstr "Додати нове %s"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:77
+msgid "row"
+msgstr "рядок"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:137
+msgid "Height"
+msgstr "Висота"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:136
+msgid "Width"
+msgstr "Ширина"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr "Проміжки"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:134
+msgid "Size"
+msgstr "Розмір"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:128
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr "Інтервал між словами"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:127
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr "Міжлітерний інтервал"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr "Стиль шрифта"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:125
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:110
+msgid "Line Height"
+msgstr "Висота рядка"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr "Товщина шрифту"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:123
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:102
+msgid "Font Size"
+msgstr "Розмір шрифту"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimension.php:41
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr "Невірне значення"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr "Стандартне сімейство шрифтів браузера"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr "CSS За замовчуванням"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:137
+msgid "Google Fonts"
+msgstr "Шрифти Google"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr "Стандартні шрифти"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:134
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:36
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:49
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:119
+msgid "Fixed"
+msgstr "Фіксовано"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:116
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:113
+msgid "Background Attachment"
+msgstr "Фонове вкладення"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:106
+msgid "Auto"
+msgstr "Авто"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:103
+msgid "Contain"
+msgstr "Містить"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:100
+msgid "Cover"
+msgstr "Обкладинка"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:97
+msgid "Background Size"
+msgstr "Розмір фону"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:91
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr "По центру знизу"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:90
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr "По центру в центрі"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:89
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr "По центру зверху"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:88
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr "Праворуч знизу"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:87
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr "Праворуч по центру"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:86
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr "Праворуч зверху"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:85
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr "Ліворуч знизу"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:84
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr "Ліворуч по центру"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:83
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr "Ліворуч зверху"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:81
+msgid "Background Position"
+msgstr "Розташування фону"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr "Повторювати вертикально"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr "Повторювати горизонтально"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:73
+msgid "Repeat All"
+msgstr "Повторювати все"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:72
+msgid "No Repeat"
+msgstr "Не повторювати"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:70
+msgid "Background Repeat"
+msgstr "Повторення фону"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:63
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:135
+msgid "Select File"
+msgstr "Оберіть файл"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:62
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:133
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:386
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:418
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:443
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:37
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:50
+msgid "Remove"
+msgstr "Видалити"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:59
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:132
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:408
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr "Файл не вибрано"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:54
+msgid "Background Image"
+msgstr "Фонове зображення"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:48
+msgid "Background Color"
+msgstr "Фоновий колір"
+
+#: xt-framework/includes/customizer/class-customizer.php:958
+msgid "Enter mobile preview mode"
+msgstr "Увійти у режим попереднього перегляду мобільного пристрою"
+
+#: xt-framework/includes/customizer/class-customizer.php:955
+msgid "Enter tablet preview mode"
+msgstr "Увійти у режим попереднього перегляду планшета"
+
+#: xt-framework/includes/customizer/class-customizer.php:952
+msgid "Enter desktop preview mode"
+msgstr "Увійти у режим попереднього перегляду настільного комп’ютера"
+
+#: xt-framework/includes/customizer/class-customizer.php:543
+#: xt-framework/includes/customizer/class-customizer.php:593
+msgid "Open in Customizer"
+msgstr "Відкрити в Налаштовувачі"
+
+#: xt-framework/includes/customizer/class-customizer.php:511
+msgid "Shared Module"
+msgstr "Загальний модуль"
+
+#: xt-framework/includes/customizer/class-customizer.php:481
+msgid "Customize"
+msgstr "Налаштувати"
+
+#: xt-framework/includes/class-system-status.php:1056
+msgid "{title:}: The system check has detected some compatibility issues on your installation. %sClick here%s to know more"
+msgstr "{title:}: Перевірка системи виявила деякі проблеми сумісності вашої установки. %sНатисніть тут%s, щоб дізнатися більше"
+
+#: xt-framework/includes/class-system-status.php:960
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: xt-framework/includes/class-system-status.php:913
+msgid "Back to System Status"
+msgstr "Назад до статусу системи"
+
+#: xt-framework/includes/class-system-status.php:909
+msgid "Show Full PHP Info"
+msgstr "Показати повну інформацію про PHP"
+
+#: xt-framework/includes/class-system-status.php:876
+#: xt-framework/includes/class-system-status.php:890
+msgid "Read more %s here%s or contact your hosting company in order to increase it."
+msgstr "Прочитайте більше %s тут%s або зв’яжіться зі своєю хостинговою компанією, щоб збільшити його."
+
+#: xt-framework/includes/class-system-status.php:873
+msgid "Contact your hosting company in order to enable it."
+msgstr "Зверніться до своєї хостингової компанії, щоб увімкнути це."
+
+#: xt-framework/includes/class-system-status.php:865
+msgid "Remove %s from %s file"
+msgstr "Видалити %s із %s файлу"
+
+#: xt-framework/includes/class-system-status.php:861
+msgid "Contact your hosting company in order to update it."
+msgstr "Зверніться до своєї хостингової компанії, щоб оновити це."
+
+#: xt-framework/includes/class-system-status.php:856
+msgid "Update it to the latest version in order to benefit of all new features and security updates."
+msgstr "Оновіть це до останньої версії, щоб скористатися всіма новими функціями та оновленнями безпеки."
+
+#: xt-framework/includes/class-system-status.php:846
+msgid "%s needs at least %s version"
+msgstr "%s потребує принаймні %s версі"
+
+#: xt-framework/includes/class-system-status.php:843
+#: xt-framework/includes/class-system-status.php:888
+msgid "For optimal functioning of our plugins, we suggest setting at least %s of available memory"
+msgstr "Для оптимального функціонування наших плагінів ми пропонуємо встановити принаймні %s доступної пам'яті"
+
+#: xt-framework/includes/class-system-status.php:840
+msgid "%s needs at least %s of available memory"
+msgstr "%s потребує принаймні %s доступної пам'яті"
+
+#: xt-framework/includes/class-system-status.php:838
+msgid "%s needs %s enabled"
+msgstr "%s потребує увімкнення %s"
+
+#: xt-framework/includes/class-system-status.php:823
+msgid "N/A"
+msgstr "Немає даних"
+
+#: xt-framework/includes/class-system-status.php:817
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: xt-framework/includes/class-system-status.php:787
+msgid "Refresh System Info"
+msgstr "Оновити інформацію про систему"
+
+#: xt-framework/includes/class-system-status.php:785
+msgid "System Info"
+msgstr "Інформація про систему"
+
+#: xt-framework/includes/class-system-status.php:779
+msgid "No template overrides found"
+msgstr "Шаблон перевизначення не знайдений"
+
+#. Translators: %1$s: Template name, %2$s: Template version, %3$s: Core
+#. version.
+#: xt-framework/includes/class-system-status.php:757
+msgid "%1$s version %2$s is out of date. The core version is %3$s"
+msgstr "%1$s версія %2$s застаріла. Версія ядра %3$s"
+
+#: xt-framework/includes/class-system-status.php:740
+msgid "%s outdated template"
+msgid_plural "%s outdated templates"
+msgstr[0] "%s застарілий шаблон"
+msgstr[1] "%s застарілі шаблони"
+msgstr[2] "%s застарілі шаблони"
+
+#: xt-framework/includes/class-system-status.php:725
+msgid "Learn how to update outdated templates"
+msgstr "Дізнайтеся, як оновити застарілі шаблони"
+
+#: xt-framework/includes/class-system-status.php:716
+msgid "Click here to learn how to override plugin templates within your theme"
+msgstr "Натисніть тут, щоб дізнатися, як замінити шаблони плагінів у вашій темі"
+
+#: xt-framework/includes/class-system-status.php:713
+msgid "Template Overrides"
+msgstr "Шаблон перевизначень"
+
+#: xt-framework/includes/class-system-status.php:702
+msgid "Not declared"
+msgstr "Не визначено"
+
+#: xt-framework/includes/class-system-status.php:698
+msgid "Displays whether or not the current active theme declares WooCommerce support."
+msgstr "Показує, чи підтримує поточна тема WooCommerce."
+
+#: xt-framework/includes/class-system-status.php:697
+msgid "WooCommerce support"
+msgstr "Підтримка WooCommerce"
+
+#: xt-framework/includes/class-system-status.php:692
+msgid "The parent theme developers URL."
+msgstr "URL розробника батьківської теми."
+
+#: xt-framework/includes/class-system-status.php:691
+msgid "Parent theme author URL"
+msgstr "URL автора батьківської теми"
+
+#. translators: %s: parent theme latest version
+#: xt-framework/includes/class-system-status.php:685
+msgid "%s is available"
+msgstr "%s доступний"
+
+#: xt-framework/includes/class-system-status.php:679
+msgid "The installed version of the parent theme."
+msgstr "Встановлена версія батьківської теми."
+
+#: xt-framework/includes/class-system-status.php:678
+msgid "Parent theme version"
+msgstr "Версія батьківської теми"
+
+#: xt-framework/includes/class-system-status.php:674
+msgid "The name of the parent theme."
+msgstr "Назва батьківської теми."
+
+#: xt-framework/includes/class-system-status.php:673
+msgid "Parent theme name"
+msgstr "Назва батьківської теми"
+
+#. Translators: %s docs link.
+#: xt-framework/includes/class-system-status.php:666
+msgid "If you are modifying WooCommerce on a parent theme that you did not build personally we recommend using a child theme. See: <a href=\"%s\" target=\"_blank\">How to create a child theme</a>"
+msgstr "Якщо ви модифікуєте WooCommerce на батьківській темі, яку ви не створювали особисто, ми рекомендуємо використовувати дочірні теми. Див .: <a href=\"%s\" target=\"_blank\"> Як створити дочірню тему</a>"
+
+#: xt-framework/includes/class-system-status.php:659
+msgid "Displays whether or not the current theme is a child theme."
+msgstr "Показує, чи є поточна тема дочірньою."
+
+#: xt-framework/includes/class-system-status.php:658
+msgid "Child theme"
+msgstr "Дочірня тема"
+
+#: xt-framework/includes/class-system-status.php:654
+msgid "The theme developers URL."
+msgstr "URL Розробників теми."
+
+#: xt-framework/includes/class-system-status.php:653
+msgid "Author URL"
+msgstr "URL Автора"
+
+#. translators: 1: current version. 2: latest version
+#: xt-framework/includes/class-system-status.php:645
+msgid "%1$s (update to version %2$s is available)"
+msgstr "%1$s (оновіть до доступної версії %2$s )"
+
+#: xt-framework/includes/class-system-status.php:640
+msgid "The installed version of the current active theme."
+msgstr "Встановлена версія поточної активної теми."
+
+#: xt-framework/includes/class-system-status.php:639
+msgid "Version"
+msgstr "Версія"
+
+#: xt-framework/includes/class-system-status.php:635
+msgid "The name of the current active theme."
+msgstr "Назва поточної активної теми."
+
+#: xt-framework/includes/class-system-status.php:634
+msgid "Name"
+msgstr "Назва"
+
+#: xt-framework/includes/class-system-status.php:630
+msgid "Active Theme"
+msgstr "Активна тема"
+
+#: xt-framework/includes/class-system-status.php:625
+msgid "No shared modules found"
+msgstr "Спільних модулів не знайдено"
+
+#: xt-framework/includes/class-system-status.php:576
+msgid "Active XT Shared Modules"
+msgstr "Активні спільні модулі XT"
+
+#: xt-framework/includes/class-system-status.php:571
+msgid "at the Network Level"
+msgstr "на мережевому рівні"
+
+#: xt-framework/includes/class-system-status.php:571
+msgid "No Active XT Plugins Found"
+msgstr "Активних плагінів XT не знайдено"
+
+#: xt-framework/includes/class-system-status.php:512
+msgid "Network Activated"
+msgstr "Мережа активована"
+
+#: xt-framework/includes/class-system-status.php:512
+msgid "Active XT Plugins"
+msgstr "Активні плагіни XT"
+
+#: xt-framework/includes/class-system-status.php:496
+msgid "XT Framework Active Version"
+msgstr "Активна версія XT Framework"
+
+#: xt-framework/includes/class-system-status.php:487
+msgid "XT Framework Active PATH"
+msgstr "Активний шлях XT Framework"
+
+#: xt-framework/includes/class-system-status.php:479
+msgid "Output IP Address"
+msgstr "Вихідна IP-адреса"
+
+#: xt-framework/includes/class-system-status.php:470
+msgid "Site URL"
+msgstr "URL сайту"
+
+#: xt-framework/includes/class-system-status.php:1063
+msgid "{title:}: The system check has detected %s%s outdated plugin template%s "
+msgid_plural "{title:}: The system check has detected %s%s outdated plugin templates%s"
+msgstr[0] "{title:}: Перевірка системи виявила %s%s застарілий шаблон плагіну%s "
+msgstr[1] "{title:}: Перевірка системи виявила %s%s застарілі шаблони плагіна%s"
+msgstr[2] "{title:}: Перевірка системи виявила %s%s застарілі шаблони плагіна%s"
+
+#: admin/customizer/fields/swatch-general.php:58
+msgid "Custom Attribute"
+msgstr "Власний атрибут"
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:170
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:182
+#: xt-framework/includes/class-framework.php:720
+msgid "Support"
+msgstr "Підтримка"
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:489
+msgid "Free Version"
+msgstr "Безкоштовна версія"
+
+#. Plugin URI of the plugin
+#: xt-woo-variation-swatches.php
+msgid "https://xplodedthemes.com/products/woo-variation-swatches/"
+msgstr "https://xplodedthemes.com/products/woo-variation-swatches/"
+
+#. Author URI of the plugin
+#: xt-woo-variation-swatches.php
+msgid "https://xplodedthemes.com"
+msgstr "https://xplodedthemes.com"
+
+#: xt-framework/includes/class-system-status.php:466
+msgid "General Info"
+msgstr "Загальна інформація"
+
+#: xt-framework/includes/class-system-status.php:162
+msgid "System Status"
+msgstr "Статус системи"
+
+#: xt-framework/includes/class-system-status.php:145
+msgid "The system check has detected some outdated plugin templates"
+msgstr "Перевірка системи виявила деякі застарілі шаблони плагіну"
+
+#: xt-framework/includes/class-system-status.php:136
+msgid "The system check has detected some compatibility issues on your installation."
+msgstr "Перевірка системи виявила деякі проблеми сумісності вашої установки."
+
+#: xt-framework/includes/class-system-status.php:85
+msgid "URL FOpen"
+msgstr "URL FOpen"
+
+#: xt-framework/includes/class-system-status.php:84
+msgid "OPCache Save Comments"
+msgstr "OPCache Зберегти коментарі"
+
+#: xt-framework/includes/class-system-status.php:83
+msgid "Iconv Module"
+msgstr "Модуль Iconv"
+
+#: xt-framework/includes/class-system-status.php:82
+msgid "GD Library"
+msgstr "Бібліотека GD"
+
+#: xt-framework/includes/class-system-status.php:81
+msgid "MultiByte String"
+msgstr "Рядок MultiByte"
+
+#: xt-framework/includes/class-system-status.php:80
+msgid "SimpleXML"
+msgstr "SimpleXML"
+
+#: xt-framework/includes/class-system-status.php:79
+msgid "WordPress Cron"
+msgstr "WordPress Cron"
+
+#: xt-framework/includes/class-system-status.php:78
+msgid "TLS Version"
+msgstr "Версія TLS"
+
+#: xt-framework/includes/class-system-status.php:77
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:156
+msgid "PHP Version"
+msgstr "Версія PHP"
+
+#: xt-framework/includes/class-system-status.php:76
+msgid "Available Memory"
+msgstr "Доступна пам’ять"
+
+#: xt-framework/includes/class-system-status.php:75
+msgid "WooCommerce Version"
+msgstr "Версія WooCommerce"
+
+#: xt-framework/includes/class-system-status.php:74
+msgid "WordPress Version"
+msgstr "Версія WordPress"
+
+#: xt-framework/includes/class-recommended-plugins.php:171
+msgid "XT Plugins"
+msgstr "Плагіни XT"
+
+#: xt-framework/includes/class-recommended-plugins.php:154
+msgid "Browse Plugins"
+msgstr "Огляд плагінів"
+
+#: xt-framework/includes/class-framework.php:2268
+#: xt-framework/includes/class-framework.php:2278
+msgid "Cheatin&#8217; huh?"
+msgstr "Махлюєте&#8217; га?"
+
+#: xt-framework/includes/class-dependencies-check.php:114
+msgid "%1$s%2$s%3$s plugin requires %4$s to be installed and active."
+msgstr "%1$s%2$s%3$s Плагін вимагає встановленого та активованого %4$s."
+
+#: xt-framework/includes/class-conflicts-check.php:89
+msgid "%1$s has been disabled since it cannot be active while using %2$s!"
+msgstr "%1$s було вимкнено, оскільки він не може бути активним під час використання %2$s!"
+
+#: xt-framework/includes/class-admin-messages.php:84
+msgid "Upgrade License"
+msgstr "Оновити ліцензію"
+
+#: xt-framework/includes/class-admin-messages.php:76
+msgid "Premium Version"
+msgstr "Преміум версія"
+
+#: xt-framework/includes/class-admin-messages.php:76
+msgid "The %s will unlock access to %s."
+msgstr "%s розблокує доступ до %s."
+
+#: xt-framework/includes/class-admin-messages.php:39
+#: xt-framework/includes/class-admin-messages.php:58
+msgid "You can <a href=\"%s\">Upgrade</a> your license to unlock access to %s."
+msgstr "Ви можете <a href=\"%s\">оновити</a> свою ліцензію, щоб розблокувати доступ до %s."
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:491
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:494
+msgid "Free"
+msgstr "Безкоштовна"
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:161
+msgid "Affiliate Program"
+msgstr "Партнерська програма"
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:157
+msgid "Make $$$"
+msgstr "Зарьоляйте $$$"
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:145
+msgid "Opt In"
+msgstr "Приєднатися"
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:134
+msgid "Account"
+msgstr "Обліковий запис"
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:134
+msgid "Network Account"
+msgstr "Мережевий обліковий запис"
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:122
+msgid "Upgrade&nbsp;&nbsp;➤"
+msgstr "Оновлення&nbsp;&nbsp;➤"
+
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:97
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:210
+msgid "XplodedThemes.com"
+msgstr "XplodedThemes.com"
+
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:85
+msgid "Get Support"
+msgstr "Отримати підтримку"
+
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:70
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:76
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:194
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:200
+msgid "Change Log"
+msgstr "Журнал змін"
+
+#: public/templates/variable.php:117 public/templates/variable.php:140
+msgid "Clear"
+msgstr "Очистити"
+
+#: public/templates/variable.php:87
+msgid "This product is currently out of stock and unavailable."
+msgstr "Цей товар відсутній в наявності і зараз недоступний."
+
+#: public/templates/bundle-variable.php:52
+#: public/templates/composite-variable.php:60
+msgid "Required option"
+msgstr "Обов'язковий параметр"
+
+#: public/functions-woocommerce.php:56
+msgid "This item is currently unavailable."
+msgstr "Цей елемент наразі недоступний"
+
+#: admin/customizer/fields/swatch-styling.php:17
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:133
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:151
+msgid "Center"
+msgstr "Центр"
+
+#: admin/customizer/fields/swatch-styling.php:10
+msgid "Swatches Alignment"
+msgstr "Вирівнювання зразків"
+
+#: admin/customizer/fields/swatch-label.php:208
+msgid "Label Swatch Font Size"
+msgstr "Розмір шрифту мітки зразка"
+
+#: admin/customizer/fields/swatch-label.php:143
+msgid "Label Swatch Height"
+msgstr "Висота мітки зразка"
+
+#: admin/customizer/fields/swatch-label.php:98
+msgid "Label Swatch Min Width"
+msgstr "Мінімальна ширина мітки зразка"
+
+#: admin/customizer/fields/swatch-label.php:76
+msgid "How many swatches would you like to display per row."
+msgstr "Скільки зразків ви хочете відобразити в рядку."
+
+#: admin/customizer/fields/swatch-label.php:75
+msgid "Max Swatches Per Row"
+msgstr "Максимальна кількість зразків на рядок"
+
+#: admin/customizer/fields/swatch-label.php:51
+msgid "Stretch Label Swatch"
+msgstr "Розтягувати мітку зразка"
+
+#: admin/customizer/fields/swatch-label.php:30
+msgid "Label Swatch Flex Mode"
+msgstr "Гнучкий режим мітки зразка"
+
+#: admin/customizer/fields/swatch-label.php:10
+msgid "Label Swatch Style"
+msgstr "Стиль мітки зразка"
+
+#: admin/customizer/fields/swatch-image.php:30
+msgid "Image Swatch Size"
+msgstr "Розмір зображення зразка"
+
+#: admin/customizer/fields/swatch-image.php:10
+msgid "Image Swatch Style"
+msgstr "Стиль зображення зразка"
+
+#: admin/customizer/fields/swatch-global.php:8
+msgid "When your variable product has more than X variations, WooCommerce starts to use ajax to load your selected variation. This changes the way the dropdown fields / swatches work – where before you could select some options and others would become unavailable/disabled, now you have to select all options before finding out the variation you selected is not available. You can either disable ajax threshold or increase it to avoid that, however keep in mind that if a product has a lot of variations, loading them on demand via ajax is faster than loading them all at once."
+msgstr "Коли ваш варіативний продукт має більше ніж X варіацій, WooCommerce починає використовувати ajax для завантаження вибраної варіації. Це змінює спосіб роботи спадних полів/зразків – коли раніше ви могли вибрати одні параметри, а інші ставали недоступними/вимкненими, тепер вам потрібно вибрати всі параметри, перш ніж виявити, що вибрана варіація недоступна. Ви можете або вимкнути поріг ajax, або збільшити його, щоб уникнути цього, однак майте на увазі, що якщо продукт має багато варіацій, завантажувати їх на вимогу через ajax швидше, ніж завантажувати їх усі одночасно."
+
+#: admin/customizer/fields/swatch-global.php:24
+msgid "Ajax Variation Threshold"
+msgstr "Поріг Ajax варіації"
+
+#: admin/customizer/fields/swatch-general.php:144
+msgid "Hide Variation Reset Link"
+msgstr "Приховати посилання для скидання варіацій"
+
+#: admin/customizer/fields/swatch-general.php:133
+msgid "This will auto select first option of each attribute by default"
+msgstr "Це автоматично вибере перший параметр кожного атрибута за замовчуванням"
+
+#: admin/customizer/fields/swatch-general.php:132
+msgid "Auto Select First Option on page load"
+msgstr "Автоматичний вибір першого параметра під час завантаження сторінки"
+
+#: admin/customizer/fields/swatch-general.php:121
+msgid "This will auto select first option of each attribute only after selecting at least 1 option. This will force the image to switch without having to select all options."
+msgstr "Це автоматично вибере першу опцію кожного атрибута лише після вибору принаймні 1 опції. Це примусово перемикатиме зображення без необхідності вибору всіх параметрів."
+
+#: admin/customizer/fields/swatch-general.php:120
+msgid "Auto Select First Option after selecting at least 1 option"
+msgstr "Автоматичний вибір першого варіанту після вибору принаймні 1 варіанту"
+
+#: admin/customizer/fields/swatch-general.php:109
+msgid "If a swatch is selected, clicking on it again will deselect it."
+msgstr "Якщо зразок вибрано, повторне натискання на ньому призведе до скасування вибору."
+
+#: admin/customizer/fields/swatch-general.php:108
+msgid "Deselect on Click"
+msgstr "Знімати вибір повторним натисканням"
+
+#: admin/customizer/fields/swatch-general.php:84
+msgid "Select global attributes (image type) where their option images will be used as main image preview. If more than one attribute is available for a product, only the first one will be used."
+msgstr "Виберіть глобальні атрибути (тип зображення), де їхні додаткові зображення використовуватимуться для попереднього перегляду основного зображення. Якщо для продукту доступно більше ніж один атрибут, використовуватиметься лише перший."
+
+#: admin/customizer/fields/swatch-general.php:71
+msgid "Use images from attribute options as a variation image preview."
+msgstr "Використовуйте зображення з параметрів атрибутів як варіант попереднього перегляду зображення."
+
+#: admin/customizer/fields/swatch-general.php:44
+msgid "Enter attribute names that will be converted to image swatches. If more than one attribute is available, only the first one will be converted. Note: this will only work if each variation has an image assigned."
+msgstr "Введіть назви атрибутів, які буде перетворено на зразки зображень. Якщо доступно більше ніж один атрибут, буде перетворено лише перший. Примітка: це працюватиме, лише якщо кожному варіанту призначено зображення."
+
+#: admin/customizer/fields/swatch-general.php:32
+msgid "Automatically convert Dropdowns to Image Swatch if variation has an image."
+msgstr "Автоматично перетворювати спадні меню на зразок зображення, якщо варіант має зображення."
+
+#: admin/customizer/fields/swatch-general.php:72
+msgid "This could be useful if you have lot's of variations without images assigned to them. Instead of having to add an image for each variation, you can use the images that are already set within one of your Global or Custom attributes of type image."
+msgstr "Це може бути корисним, якщо у вас є багато варіантів без призначених для них зображень. Замість того, щоб додавати зображення для кожного варіанту, ви можете використовувати зображення, які вже встановлено в одному з ваших глобальних або спеціальних атрибутів типу зображення."
+
+#: admin/customizer/fields/swatch-general.php:21
+msgid "Automatically convert Dropdowns to Label Swatch by default."
+msgstr "Автоматично перетворювати спадні списки на мітку зразка за замовчуванням."
+
+#: admin/customizer/fields/swatch-styling.php:18
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:132
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:157
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-spacing.php:35
+msgid "Right"
+msgstr "Праворуч"
+
+#: admin/customizer/fields/swatch-styling.php:16
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:131
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:145
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-spacing.php:34
+msgid "Left"
+msgstr "Лiворуч"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:129
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-spacing.php:32
+msgid "Top"
+msgstr "Зверху"
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:130
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-spacing.php:33
+msgid "Bottom"
+msgstr "Знизу"
+
+#: admin/customizer/fields/swatch-general.php:48
+msgid "Custom attribute"
+msgstr "Власний атрибут"
+
+#: admin/customizer/fields/swatch-general.php:43
+msgid "Select Custom Attributes"
+msgstr "Виберіть власні атрибути"
+
+#: admin/customizer/fields/swatch-general.php:88
+msgid "Global attribute"
+msgstr "Глобальний атрибут"
+
+#: admin/customizer/fields/swatch-general.php:83
+msgid "Select Global Attributes"
+msgstr "Вибрати глобальні атрибути"
+
+#: admin/customizer/fields/swatch-general.php:14
+#: admin/customizer/fields/swatch-general.php:25
+#: admin/customizer/fields/swatch-general.php:36
+#: admin/customizer/fields/swatch-general.php:76
+#: admin/customizer/fields/swatch-general.php:113
+#: admin/customizer/fields/swatch-general.php:125
+#: admin/customizer/fields/swatch-general.php:137
+#: admin/customizer/fields/swatch-general.php:148
+#: admin/customizer/fields/swatch-global.php:17
+#: admin/customizer/fields/swatch-label.php:38
+#: admin/customizer/fields/swatch-label.php:59
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:11
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:25
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:38
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:61
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:75
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:96
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:117
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:207
+msgid "Yes"
+msgstr "Так"
+
+#: admin/customizer/fields/swatch-general.php:10
+msgid "Enable Swatches."
+msgstr "Увімкнути зразки."
+
+#: admin/customizer/fields/swatch-color.php:95
+msgid "Color Swatch Height"
+msgstr "Висота кольорового зразка"
+
+#: admin/customizer/fields/swatch-color.php:30
+msgid "Color Swatch Width"
+msgstr "Ширина кольорового зразка"
+
+#: admin/customizer/fields/swatch-color.php:10
+msgid "Color Swatch Style"
+msgstr "Стиль кольорового зразка"
+
+#: admin/class-admin.php:717
+#: xt-framework/includes/settings/fields/multi_select_countries.php:37
+msgid "Select none"
+msgstr "Зняти вибір"
+
+#: admin/class-admin.php:714
+#: xt-framework/includes/settings/fields/multi_select_countries.php:37
+msgid "Select all"
+msgstr "Вибрати все"
+
+#: admin/class-admin.php:697
+msgid "Select terms"
+msgstr "Виберіть групи"
+
+#: admin/class-admin.php:597 admin/class-admin.php:599
+msgid "Add image to Attribute "
+msgstr "Додати зображення до атрибута "
+
+#: admin/class-admin.php:647
+msgid "Upgrade to Unlock!"
+msgstr "Оновіть, щоб розблокувати!"
+
+#: admin/class-admin.php:642
+msgid "Premium Feature!"
+msgstr "Преміум функція!"
+
+#: admin/class-admin.php:566
+msgid "Tooltip Text"
+msgstr "Текст підказки"
+
+#: admin/customizer/fields/swatch-general.php:13
+#: admin/customizer/fields/swatch-general.php:24
+#: admin/customizer/fields/swatch-general.php:35
+#: admin/customizer/fields/swatch-general.php:75
+#: admin/customizer/fields/swatch-general.php:112
+#: admin/customizer/fields/swatch-general.php:124
+#: admin/customizer/fields/swatch-general.php:136
+#: admin/customizer/fields/swatch-general.php:147
+#: admin/customizer/fields/swatch-global.php:16
+#: admin/customizer/fields/swatch-label.php:37
+#: admin/customizer/fields/swatch-label.php:58
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:10
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:24
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:37
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:60
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:74
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:95
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:116
+#: xt-framework/includes/modules/add-to-cart/customizer/fields.php:206
+msgid "No"
+msgstr "Ні"
+
+#: admin/class-admin.php:556
+msgid "Tooltip Image"
+msgstr "Зображення підказки"
+
+#: admin/class-admin.php:546
+msgid "Tooltip"
+msgstr "Підказка"
+
+#: admin/class-admin.php:536
+msgid "Swatch"
+msgstr "Зразок"
+
+#: admin/class-admin.php:309
+msgid "Use image"
+msgstr "Використати зображення"
+
+#: admin/class-admin.php:308
+msgid "Choose an image"
+msgstr "Виберіть зображення"
+
+#: admin/class-admin.php:185
+msgid "Swatch Tooltip Settings"
+msgstr "Налаштування підказки зразка"
+
+#: admin/class-admin.php:179
+msgid "Image Swatch Settings"
+msgstr "Налаштування зображення зразка"
+
+#: admin/class-admin.php:173
+msgid "Color Swatch Settings"
+msgstr "Налаштування кольорового зразка"
+
+#: admin/class-admin.php:167
+msgid "Label Swatch Settings"
+msgstr "Налаштування мітки зразка"
+
+#: admin/class-admin.php:153
+msgid "General Look & Feel"
+msgstr "Загальний вигляд і сприйняття"
+
+#: admin/class-admin.php:147
+msgid "General Swatch Settings"
+msgstr "Загальні налаштування зразка"
+
+#: admin/class-admin.php:140
+msgid "Global Settings"
+msgstr "Глобальні налаштування"
+
+#: admin/class-admin.php:64
+msgid "Archives / Shop"
+msgstr "Архіви / Магазин"
+
+#: admin/class-admin.php:60
+msgid "Single Product"
+msgstr "Окремий товар"
+
+#: admin/class-admin-product.php:541
+msgid "Add a at least one attribute / variation combination to this product. You will then be able to see the swatch configuration over here."
+msgstr "Додайте до цього продукту принаймні одну комбінацію атрибутів/варіантів. Тоді ви зможете побачити конфігурацію зразка тут."
+
+#: admin/class-admin-product.php:540
+msgid "No attributes found!"
+msgstr "Атрибутів не знайдено!"
+
+#: admin/class-admin-product.php:485 admin/class-admin-product.php:711
+#: admin/class-admin.php:606
+msgid "Remove image"
+msgstr "Видалити зображення"
+
+#: admin/class-admin-product.php:480 admin/class-admin-product.php:706
+#: admin/class-admin.php:601
+msgid "Upload/Add image"
+msgstr "Завантажити/Додати зображення"
+
+#: admin/class-admin-product.php:478 admin/class-admin-product.php:704
+msgid "Add image(s)"
+msgstr "Додати зображення"
+
+#: admin/class-admin-product.php:476 admin/class-admin-product.php:702
+msgid "Add image(s) to %s"
+msgstr "Додати зображення до %s"
+
+#: admin/class-admin-product.php:400 class-core.php:51
+msgid "Label"
+msgstr "Мітка"
+
+#: admin/class-admin-product.php:390 admin/class-admin-product.php:424
+#: class-core.php:49
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:221
+msgid "Color"
+msgstr "Колір"
+
+#: admin/class-admin-product.php:251
+msgid "Custom Labels"
+msgstr "Спеціальні мітки"
+
+#: admin/class-admin-product.php:246
+msgid "Custom Images"
+msgstr "Користувацькі зображення"
+
+#: admin/class-admin-product.php:241
+msgid "Custom Colors"
+msgstr "Користувацькі кольори"
+
+#: admin/class-admin-product.php:236
+msgid "Inherit Global"
+msgstr "Успадкувати глобальні"
+
+#: admin/class-admin-product.php:226 admin/class-admin-product.php:377
+msgid "Swatch Type"
+msgstr "Тип зразка"
+
+#: admin/class-admin-product.php:220
+msgid "Quick Attribute"
+msgstr "Швидкий атрибут"
+
+#: admin/class-admin-product.php:220
+#: admin/customizer/fields/swatch-general.php:95
+msgid "Global Attribute"
+msgstr "Глобальний атрибут"
+
+#: admin/class-admin-product.php:129
+msgid "product level swatch customizations that overrides global settings."
+msgstr "налаштування зразків на рівні продукту, які перевизначають глобальні налаштування."
+
+#: admin/class-admin-product.php:104
+msgid "Swatches"
+msgstr "Зразки"
+
+#: admin/class-admin-product.php:86
+msgid "Swatch Tooltip Text"
+msgstr "Текст підказки зразка"
+
+#: admin/class-admin-product.php:74
+msgid "Swatch Tooltip Image"
+msgstr "Зображення підказки зразка"
+
+#: admin/class-admin-product.php:67 admin/class-admin-product.php:395
+#: admin/class-admin-product.php:458 class-core.php:50
+msgid "Image"
+msgstr "Зображення"
+
+#: admin/class-admin-product.php:66
+msgid "Text"
+msgstr "Текст"
+
+#: admin/class-admin-product.php:65
+#: xt-framework/includes/class-system-status.php:817
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: admin/class-admin-product.php:62
+msgid "Swatch Tooltip"
+msgstr "Підказка зразка"
+
+#: admin/class-admin-product.php:55 admin/customizer/fields/swatch-color.php:19
+#: admin/customizer/fields/swatch-image.php:19
+#: admin/customizer/fields/swatch-label.php:19
+msgid "Rounded"
+msgstr "Закруглені"
+
+#: admin/class-admin-product.php:54 admin/customizer/fields/swatch-color.php:18
+#: admin/customizer/fields/swatch-image.php:18
+#: admin/customizer/fields/swatch-label.php:18
+msgid "Circle"
+msgstr "Круглі"
+
+#: admin/class-admin-product.php:53 admin/customizer/fields/swatch-color.php:17
+#: admin/customizer/fields/swatch-image.php:17
+#: admin/customizer/fields/swatch-label.php:17
+msgid "Square"
+msgstr "Прямокутні"
+
+#: admin/class-admin-product.php:50
+msgid "Swatch Style"
+msgstr "Стиль зразків"
+
+#. Author of the plugin
+#: xt-woo-variation-swatches.php
+msgid "XplodedThemes"
+msgstr "XplodedThemes"
+
+#. Description of the plugin
+#: xt-woo-variation-swatches.php
+msgid "A WooCommerce extension that transforms variation dropdowns to beautiful color, image or label swatches. Image swatches will automatically be applied for variation color attributes that contains an image."
+msgstr "Розширення WooCommerce, яке перетворює спадні меню варіантів на гарні зразки кольорів, зображень або міток. Зразки зображень будуть автоматично застосовані до варіаційних атрибутів кольору, які містять зображення."
+
+#: xt-framework/includes/class-system-status.php:929
+msgid "Back to top"
+msgstr "Повернутись до верху"
