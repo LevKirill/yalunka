@@ -2649,3 +2649,6 @@ body {
   border-color: #0a8f6a;
   color: #fff;
 }
+#order-details {
+  display: none !important;
+}

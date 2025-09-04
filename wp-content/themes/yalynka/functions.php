@@ -394,4 +394,4 @@ add_action('init', 'register_video_item_cpt');
 /**
  * Отправка заказа по email и/или Telegram
  */
-require get_template_directory() . '/inc/email-functions.php';
+//require get_template_directory() . '/inc/email-functions.php';

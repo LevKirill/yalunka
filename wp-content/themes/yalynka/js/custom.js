@@ -163,34 +163,12 @@ document.addEventListener("DOMContentLoaded", () => {
             orderPopup.classList.add("open");
         });
     });
-
-    /*if (orderConfirmBtn) {
-        orderConfirmBtn.addEventListener("click", (e) => {
-            e.preventDefault();
-            const orderForm = document.querySelector(".order-form");
-            const inputs = orderForm.querySelectorAll("input[required], select[required]");
-            let isValid = true;
-            inputs.forEach((input) => (input.style.border = ""));
-            inputs.forEach((input) => {
-                if (!input.value.trim()) {
-                    input.style.border = "1px solid #f44336";
-                    isValid = false;
-                }
-            });
-            if (!isValid) {
-                alert("Будь ласка, заповніть усі обов'язкові поля!");
-                return;
-            }
-            alert("Дякуємо! Ваше замовлення прийнято.");
-            orderPopup.classList.remove("open");
-            orderForm.reset();
-        });
-    }*/
 });
 
 
 // === Додавання товарiв в LocalStorage и обробник для форми CF7 з JSON ===
 jQuery(function($){
+
     // === Обновление счётчика корзины ===
     function updateCartCount() {
         const cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -257,18 +235,35 @@ jQuery(function($){
         });
 
         $('.order-total__sum').text(`${total} ₴`);
-        const cartField = $('input[name="cart"]');
-        if(cartField.length) cartField.val(JSON.stringify(cartArray));
+        fillTextarea(cartArray); // Заполняем textarea
         $('.order-popup').addClass('open');
     }
 
-    // === Добавление товара в корзину ===
+    // === Заполнение textarea для CF7 ===
+    function fillTextarea(cartArray){
+        const $cartTextarea = $('textarea[name="order-details"]'); // CF7 textarea
+        if(!$cartTextarea.length) return;
+
+        if(!cartArray || !cartArray.length){
+            $cartTextarea.val('Кошик порожній');
+            return;
+        }
+
+        let cartText = '';
+        cartArray.forEach(item => {
+            const total = (item.price * item.quantity).toFixed(2);
+            cartText += `${item.title} × ${item.quantity} — ${total} ₴\n`; // перенос строки
+        });
+        $cartTextarea.val(cartText);
+    }
+
+
     // === Добавление товара в корзину ===
     $('.product__btns').on('click', '.custom-add-to-cart', function(){
         const $btn = $(this);
         const productId = $btn.attr('data-id');
-        const variationId = $btn.attr('data-variation-id') || ''; // уникальный id вариации
-        const uniqueId = productId + '_' + variationId; // уникальный ключ
+        const variationId = $btn.attr('data-variation-id') || '';
+        const uniqueId = productId + '_' + variationId;
         const title = $btn.attr('data-title');
         const price = parseFloat($btn.attr('data-price')) || 0;
         const image = $btn.closest('.product').find('img').attr('src') || 'assets/img/placeholder.png';
@@ -293,12 +288,10 @@ jQuery(function($){
         localStorage.setItem('cart', JSON.stringify(cart));
         renderCart();
 
-        // === Анимация кнопки ===
+        // Анимация кнопки
         const originalText = $btn.text();
         $btn.text('Додано в кошик');
-        setTimeout(() => {
-            $btn.text(originalText);
-        }, 1500);
+        setTimeout(() => { $btn.text(originalText); }, 1500);
     });
 
     // === Удаление из корзины ===
@@ -331,8 +324,6 @@ jQuery(function($){
         e.preventDefault();
         const cart = JSON.parse(localStorage.getItem('cart')) || [];
         if(cart.length === 0) return;
-        const $orderPopup = $('.order-popup');
-        $orderPopup.data('quick-order', false); // обычный заказ
         renderOrderPopup(cart);
     });
 
@@ -342,35 +333,15 @@ jQuery(function($){
         const $btn = $(this);
         const $product = $btn.closest('.product');
 
-        const item = {
+        const item = [{
             id: $product.find('.custom-add-to-cart').data('id'),
             title: $product.find('.custom-add-to-cart').data('title'),
             price: parseFloat($product.find('.custom-add-to-cart').data('price')) || 0,
             image: $product.find('img').attr('src') || '',
             quantity: 1
-        };
+        }];
 
-        const $orderPopup = $('.order-popup');
-        $orderPopup.data('quick-order', true); // 1 клик
-        renderOrderPopup([item]);
-    });
-
-    // === Заполнение скрытого поля при отправке CF7 ===
-    document.addEventListener('wpcf7beforesubmit', function(event){
-        const $form = $(event.target);
-        const $cartField = $form.find('input[name="cart"]');
-        if($cartField.length){
-            const cartItems = [];
-            $('.order-items .order-item').each(function(){
-                const $item = $(this);
-                const title = $item.find('span').text() || '';
-                const price = parseFloat($item.find('strong').text().replace(/[^\d.]/g,'')) || 0;
-                const quantityMatch = $item.find('span').text().match(/× (\d+)/);
-                const quantity = quantityMatch ? parseInt(quantityMatch[1]) : 1;
-                cartItems.push({ title, price, quantity });
-            });
-            $cartField.val(JSON.stringify(cartItems));
-        }
+        renderOrderPopup(item);
     });
 
     // === Очистка корзины после отправки CF7 ===
@@ -378,13 +349,10 @@ jQuery(function($){
         const $form = $(event.target);
         const $orderPopup = $('.order-popup');
         if($form.closest('.order-popup').length > 0){
-            const isQuickOrder = $orderPopup.data('quick-order');
-            if(!isQuickOrder){ // очищаем только обычный заказ
-                localStorage.removeItem('cart');
-                $('.cart-items, .order-items').empty().append('<p>Кошик порожній</p>');
-                $('.cart-total, .order-total__sum').text('0 ₴');
-                $('.header__count').text('0');
-            }
+            localStorage.removeItem('cart');
+            $('.cart-items, .order-items').empty().append('<p>Кошик порожній</p>');
+            $('.cart-total, .order-total__sum').text('0 ₴');
+            $('.header__count').text('0');
             $orderPopup.removeClass('open');
             alert('Дякуємо! Ваше замовлення прийнято.');
         }
@@ -392,5 +360,6 @@ jQuery(function($){
 
     // === Инициализация ===
     renderCart();
+
 });
 
