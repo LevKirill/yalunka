@@ -25,13 +25,37 @@ $('.filter-btn button').click(function() {
     $(this).parent().parent().toggleClass('active');
 });
 
+// const searchBtn = document.querySelector(".top-header__search");
+// const searchContainer = document.querySelector(".top-header__search-box");
+// if (searchBtn) {
+//     searchBtn.addEventListener('click', (e) => {
+//         searchContainer.classList.toggle('active');
+//     });
+// }
+
 const searchBtn = document.querySelector(".top-header__search");
 const searchContainer = document.querySelector(".top-header__search-box");
-if (searchBtn) {
-    searchBtn.addEventListener('click', (e) => {
-        searchContainer.classList.toggle('active');
+
+if (searchBtn && searchContainer) {
+    // обработка клика по кнопке
+    searchBtn.addEventListener("click", (e) => {
+        e.stopPropagation(); // чтобы клик по кнопке не закрыл контейнер
+        searchContainer.classList.toggle("active");
+    });
+
+    // обработка клика по контейнеру (чтобы не закрывался при работе внутри него)
+    searchContainer.addEventListener("click", (e) => {
+        e.stopPropagation();
+    });
+
+    // обработка клика по документу (закрытие при клике вне)
+    document.addEventListener("click", () => {
+        if (searchContainer.classList.contains("active")) {
+            searchContainer.classList.remove("active");
+        }
     });
 }
+
 
 
 //Добавление выбранных вариаций в кнопки купить на странице товара
@@ -362,4 +386,3 @@ jQuery(function($){
     renderCart();
 
 });
-

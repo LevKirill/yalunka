@@ -151,6 +151,7 @@ body {
     background-color: #03231a !important;
     color: #fff;
     padding: 6.25rem 0;
+    overflow: hidden;
 }
 .header {
     background-color: #03231a !important;
@@ -182,6 +183,11 @@ body {
     align-items: center;
     display: flex;
     gap: 0.625rem;
+}
+@media screen and (max-width: 1240px) {
+    .info-footer__social {
+        justify-content: center;
+    }
 }
 .menu-footer__list {
     display: flex;
@@ -973,4 +979,7 @@ body {
     .hero__button:hover {
         transform: scale(1.1);
     }
+}
+.page-wrapper {
+    overflow: hidden;
 }

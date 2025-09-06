@@ -135,12 +135,12 @@ function yalynka_scripts() {
   wp_enqueue_style( 'yalynka-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'yalynka-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '5.1.3' );
 	wp_enqueue_style( 'yalynka-owlcss', get_template_directory_uri() . '/css/owl.carousel.min.css', array(), '2.3.4' );
-	wp_enqueue_style( 'yalynka-app', get_template_directory_uri() . '/css/app.css', array(), '2.3.4' );
+	wp_enqueue_style( 'yalynka-app', get_template_directory_uri() . '/css/app.css', array(), '1.03' );
 
 	wp_enqueue_script( 'yalynka-bundle', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array(), '5.1.3', true );
 	wp_enqueue_script( 'yalynka-owljs', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), '2.3.4', true );
-//  wp_enqueue_script( 'yalynka-appJS', get_template_directory_uri() . '/js/app.js', array(), _S_VERSION, true );
-  wp_enqueue_script( 'yalynka-custom', get_template_directory_uri() . '/js/custom.js', array(), _S_VERSION, true );
+  wp_enqueue_script( 'yalynka-headerJS', get_template_directory_uri() . '/js/header.js', array(), '1.03', false );
+  wp_enqueue_script( 'yalynka-custom', get_template_directory_uri() . '/js/custom.js', array(), '1.03', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -218,7 +218,7 @@ add_action( 'woocommerce_before_shop_loop', 'tutsplus_product_subcategories', 50
 
 // Подключение стилей и скриптов
 function my_theme_enqueue_assets() {
-    wp_enqueue_style('main-style', get_template_directory_uri() . '/assets/css/index.min.css', [], '1.0', 'all');
+    wp_enqueue_style('main-style', get_template_directory_uri() . '/assets/css/index.min.css', [], '1.03', 'all');
     wp_enqueue_script('main-script', get_template_directory_uri() . '/assets/js/index.min.js', [], '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_assets');

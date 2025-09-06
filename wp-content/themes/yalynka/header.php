@@ -121,7 +121,7 @@
               <img src="<?= get_template_directory_uri() . '/assets/img/header/search.svg';?>" alt="Search">
             </a>
           </div>
-          <div class="header-account d-none d-lg-block">
+          <div class="header-account d-lg-block">
             <a href="<?php echo esc_url( wc_get_account_endpoint_url( 'dashboard' ) ); ?>"></a>
           </div>
           <a href="#" class="top-header__icon top-header__cart cart-btn">

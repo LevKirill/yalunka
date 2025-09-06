@@ -1646,6 +1646,9 @@ body.single-product .page-content:after {
         margin-bottom: 15px;
         margin-left: 0;
     }
+    .header-account {
+        margin-bottom: 0;
+    }
     .header-phone a:before,
     .header-account a:before {
         background-color: var(--main-color);

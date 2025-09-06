@@ -333,3 +333,10 @@ add_action( 'woocommerce_single_product_summary', function() {
     }, 30 );
   }
 }, 1 );
+
+// Добавляем кастомный класс в body
+add_filter( 'body_class', 'my_custom_body_class' );
+function my_custom_body_class( $classes ) {
+  $classes[] = 'js-move-init';
+  return $classes;
+}
